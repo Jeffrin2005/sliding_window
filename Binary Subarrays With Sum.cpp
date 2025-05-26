@@ -7,6 +7,8 @@ public:
     int countSubarrays(vector<int>& nums, int goal){
         if(goal<0)  return 0;
 
+        // Time complexity can be increased a lot..
+            // so convientet.
         int l=0,r=0,count=0,sum=0;
         int n = nums.size();
 
