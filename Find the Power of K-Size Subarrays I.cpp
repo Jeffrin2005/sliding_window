@@ -5,6 +5,8 @@ public:// time comp = o(n), space comp = o(1);
         vector<int> ans(n - k + 1, -1); 
         int i = 0;
         int j = 0; 
+
+        // iM' not sure it is working fien .oo ddon 
         while (j < n){
             // If the current element is not consecutive to the previous
             if (j > 0 && nums[j] - nums[j - 1] != 1) {
