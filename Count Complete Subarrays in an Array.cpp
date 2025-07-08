@@ -1,6 +1,6 @@
 #include <vector>
 #include <unordered_map>
-// slding window 
+
 class Solution {
 public:
     int countCompleteSubarrays(vector<int>& nums) {
