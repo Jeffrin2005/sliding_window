@@ -11,9 +11,9 @@ public:
             start = 1;
             end = k;
         } else {
-            start = n + k; // k is negative, adjust start accordingly
+            start = n + k; // 
             end = n - 1;
-        } // Calculate initial sum of the window
+        } // Calculate init
         for(int i = start; i <= end; i++){
             sum += code[i % n];
         }  // Slide the window across the array
